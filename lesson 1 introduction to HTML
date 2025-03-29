@@ -1,1 +1,24 @@
+<!DOCTYPE html>
 
+<html lang = "en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Learn HTML</title>
+
+</head>
+
+<body>
+
+<h1>My introduction</h1>
+
+<h2>Hello! my name is Adanya.i am in 10th gradewith a passion for learning and for technology .</h2>
+
+<h1>MY HOBBIES and INTERESTS</h1>
+<h2> i enjoy playing guitar and piano  and am a video game enthusiast.</h2>
+</body>
+</html>
