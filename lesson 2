@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
+
+<title>replit</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<h1> my favourite sports</h1>
+<h2>1.FOOTBALL</h2>
+<p><b>Football </b>is not just a game , it's a emotion. I'm a huge fan og<i>Lionel Messi</i> and the way he plays is pure magic .</p>
+<p>Fifa was found in year 1904<sup>th</sup>,</p>
+<p>Football field is abt 105m x 68m<sub>pitch</sub>
+
+</body>
+
+</html>
+
