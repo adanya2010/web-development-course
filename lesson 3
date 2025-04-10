@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>My favourite food </title>
+</head>
+<body>
+    <h1>Myfavourite food</h1>
+    <p> food is not somwthing we eat it is something which we experience ,among all delicious food out there my fav is pizza.It's cheesy,flavourful and perfect.</p>
+    <h2>WHY I LOVE PIZZA</h2>
+    <p>pizza comes in very variates and i love exploring different toppings perfect blend .</p>
+    <h3>MY FAVOURITE TOPPING</h3>
+    <ul>
+        <li>MOZERELLA</li>
+        <li>MUSHROOM</li>
+        <li>PANEER</li>
+    </ul> visit
+   <h4>PIZZA PREFERNCE</h4>
+   <table border ="1">
+        <tr>
+             <th>TYPE</th>
+             <th>MY CHOICE</th>
+        </tr>
+        <tr>
+             <td>CRUST</td>
+             <td>TTHIN CRUST</td>
+        </tr>
+        <tr>
+             <td>CHEESE</td>
+        </tr>
+        </table>
+    <h5>history of my favvv pizza</h5>
+    <p>history of pizza? visot <a href="https://www.youtube.com/results?search_query=history+of+pizza"</a>.</p>
+</body>
+</html>
