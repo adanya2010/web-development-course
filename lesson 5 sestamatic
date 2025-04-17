@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>My Favourite Food</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Favourite Food: Pizza</h1>
+    </header>
+
+    <nav>
+        <a href="#why">Why I Love Pizza</a> |
+        <a href="#toppings">Toppings</a> |
+        <a href="#preference">Pizza Preference</a> |
+        <a href="#history">History</a>
+    </nav>
+
+    <section id="why">
+        <h2>Why I Love Pizza</h2>
+        <p>Food is not something we just eat, it is something we experience. Among all the delicious foods out there, my favourite is pizza. It's cheesy, flavourful, and perfect.</p>
+    </section>
+
+    <section id="toppings">
+        <h3>My Favourite Toppings</h3>
+        <ul>
+            <li>Mozzarella</li>
+            <li>Mushroom</li>
+            <li>Paneer</li>
+        </ul>
+    </section>
+
+    <section id="preference">
+        <h4>Pizza Preference</h4>
+        <table border="1">
+            <tr>
+                <th>Type</th>
+                <th>My Choice</th>
+            </tr>
+            <tr>
+                <td>Crust</td>
+                <td>Thin Crust</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>Extra Cheese</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="history">
+        <h5>History of My Favourite Pizza</h5>
+        <p>Want to know the history of pizza? Visit <a href="https://www.youtube.com/results?search_query=history+of+pizza">this link</a>.</p>
+    </section>
+
+    <footer>
+        <p>Project by Adanya | lesson 5</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
