@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive Grid - Bootstrap Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <style>
+    .grid-box {
+      border: 1px solid black;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center text-primary">📐 Responsive Grid</h1>
+    <p class="text-center">Resize the browser window to see how columns behave on different screen sizes.</p>
+
+    <!-- Row 1: Extra Small and Medium -->
+    <div class="row">
+      <div class="col-4 col-md-8 grid-box" style="background-color: red;">col-4 / col-md-8</div>
+      <div class="col-8 col-md-4 grid-box" style="background-color: orange;">col-8 / col-md-4</div>
+    </div>
+
+    <!-- Row 2: Small and Medium -->
+    <div class="row mt-3">
+      <div class="col-sm-6 col-md-3 grid-box" style="background-color: teal;">col-sm-6 / col-md-3</div>
+      <div class="col-sm-6 col-md-9 grid-box" style="background-color: purple;">col-sm-6 / col-md-9</div>
+    </div>
+
+    <!-- Row 3: Medium and Large -->
+    <div class="row mt-3">
+      <div class="col-md-7 col-lg-5 grid-box" style="background-color: navy;">col-md-7 / col-lg-5</div>
+      <div class="col-md-5 col-lg-7 grid-box" style="background-color: green;">col-md-5 / col-lg-7</div>
+    </div>
+
+    <!-- Row 4: All screen sizes -->
+    <div class="row mt-3">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 grid-box" style="background-color: darkslateblue;">Multi-breakpoint</div>
+      <div class="col-6 col-sm-8 col-md-9 col-lg-10 grid-box" style="background-color: brown;">Multi-breakpoint</div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
