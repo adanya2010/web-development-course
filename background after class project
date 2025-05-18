@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Codingal</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light background color */
+            background-image: url('https://www.transparenttextures.com/patterns/hexellence.png'); /* Background image */
+            background-repeat: repeat; /* Repeats the background pattern */
+            background-attachment: fixed; /* Background stays fixed during scroll */
+            font-family: Arial, sans-serif;
+        }
+
+        #grad1 {
+            height: 400px;
+            background-image: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            font-size: 40px;
+            font-weight: bold;
+            border-radius: 20px;
+            margin: 40px auto;
+            width: 80%;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .change-image {
+            width: 300px;
+            height: auto;
+            transition: all 0.5s ease-in-out;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+
+        .change-image:hover {
+            content: url('https://cdn.pixabay.com/photo/2021/03/25/14/30/code-6127614_960_720.png'); /* Change image on hover */
+            transform: scale(1.1); /* Zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="grad1">
+        Welcome to Codingal
+    </div>
+
+    <div class="image-container">
+        <img class="change-image" src="https://cdn.pixabay.com/photo/2017/08/30/07/52/code-2690577_960_720.jpg" alt="Coding Image">
+    </div>
+
+</body>
+</html>
+�
+
+
+
+
+
+
+
+
+
+
