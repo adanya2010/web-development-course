@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Hobbies - Codingal Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    .hobby-container {
+      border: 3px solid black;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <!-- Main Title -->
+  <div class="container text-center my-4">
+    <h1 class="text-primary">Your Hobbies</h1>
+    <p class="text-muted">Here are two things I absolutely love doing!</p>
+  </div>
+
+  <!-- Hobby 1: Playing Guitar -->
+  <div class="container hobby-container bg-warning text-dark">
+    <h2>🎸 Playing Guitar</h2>
+    <p>I love playing the guitar. It's relaxing, fun, and helps me express myself through music. 🎶</p>
+  </div>
+
+  <!-- Hobby 2: Playing Football -->
+  <div class="container hobby-container bg-success text-white">
+    <h2>⚽ Playing Football</h2>
+    <p>Football keeps me active and energetic. I enjoy teamwork and scoring goals on the field! 🥅</p>
+  </div>
+
+</body>
+
+</html>
