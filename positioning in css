@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Football Fever</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: url('https://images.unsplash.com/photo-1608731238890-6c0e19dc3b46?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      color: white;
+    }
+
+    /* Fixed Navigation Bar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    .navbar h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 3px;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero-box {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 60px;
+      border-radius: 15px;
+      width: 65%;
+      opacity: 0.9;
+    }
+
+    .hero-box h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero-box p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Quote Box */
+    .quote {
+      position: absolute;
+      bottom: 50px;
+      left: 50px;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      max-width: 300px;
+      backdrop-filter: blur(3px);
+    }
+
+    /* Fixed Footer */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <h1>⚽ Football Fever</h1>
+  </div>
+
+  <div class="hero">
+    <div class="hero-box">
+      <h2>Feel the Kick!</h2>
+      <p>Experience the passion, the thrill, and the rush of the world's most loved sport. From dusty playgrounds to
+        grand stadiums, football unites us all. Are you ready to chase the goal?</p>
+    </div>
+
+    <div class="quote">
+      “Football is not just a game, it's an emotion.”
+      <br>– Adanya
+    </div>
+  </div>
+
+  <div class="footer">
+    Made with ❤️ for football lovers | © 2025
+  </div>
+
+</body>
+
+</html>
+ 
