@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Basic JavaScript Calculator</h1>
+
+<p>See the results of basic calculations below:</p>
+
+<p id="add"></p>
+<p id="subtract"></p>
+<p id="multiply"></p>
+<p id="divide"></p>
+
+<script>
+// Declare variables
+var a = 10;
+var b = 2;
+
+// Addition
+var sum = a + b;
+document.getElementById("add").innerHTML = "Addition: " + sum;
+
+// Subtraction
+var diff = a - b;
+document.getElementById("subtract").innerHTML = "Subtraction: " + diff;
+
+// Multiplication
+var product = a * b;
+document.getElementById("multiply").innerHTML = "Multiplication: " + product;
+
+// Division
+var quotient = a / b;
+document.getElementById("divide").innerHTML = "Division: " + quotient;
+</script>
+
+</body>
+</html>
