@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Adanya's portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>"
+
+    </head>
+    <body class="bg-gradient-to-r
+    from-gray-900 via-gray-800 to-gray-900
+    text-white font-sans">
+         <!--Hero Section-->
+         <section class ="h-screen flex itmes-center justify-center text-center px-4">
+            <div>
+                
+                <h1 class ="text-4xl font-bold
+                bg-clip-text text-transparent
+                bg-grple-600">HI I AM 
+                    <span class ="underline
+                    decoration-pink-500">ADANYA</span>
+                </h1>
+                <p> STUDENT● DEVELOPER● DREAMER</p>
+                <div>
+                    <a  class ="bg-pink-600 px-6 py-3 hover :bg-pink-500 rounded xl shadow-md transition font-bold"href="abc@gmail.com">Send Email</a> 
+                </div>
+         </section>
+</body>
+</html>
