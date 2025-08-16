@@ -1,0 +1,104 @@
+age = 12
+if(age>18)  :
+   print("Eligible for Driving Lisence!")
+else:
+    print("Not Eligible")/
+
+day=2
+if(day==1):
+   print("Sunday")
+elif(day==2):
+     print("Monday")
+elif(day==3):
+     print("Tuesday")
+else:
+     print()
+
+
+
+# Falsy and Truthy values
+
+ # 0,0.0,{},[],(),
+ # if'':
+      print("Truthy value")
+# else:
+      print("Falsy value")
+
+#Terneary Ooperator
+
+#if x%2==0:
+    print("Even")
+
+    # else:
+          print("Odd")
+
+
+x=5
+
+if x%2==0:
+   print("Even")
+else:
+    print("Odd")
+
+result = "Even" if x%2==0 else"Odd"
+print(result)
+
+
+
+polarity ="Positive" if x>0 else "Negative"
+print(polarity)
+
+# add , or ,not
+username="adanya"
+password="ada@2010"
+
+if username =="adanya" and password ="adanya":
+          print("hello")
+else:
+    print("bye")
+# And condition is true when both sideds are True
+print(True and False)
+print(False and True)
+print(False and False)
+print(True and True)
+#"Or"
+print(True or False)
+print(False or True)
+print(True and True)
+print(False or False)
+
+# not 
+print(not True)
+
+DAY = 1
+match day :
+
+case 1:
+      print("Sunday")
+case2:
+     print("Monday:)
+case 3:
+      print("Tuesday")
+case 4:
+      print("Wednesday")
+case5:
+     print("Thursday")
+case_:
+      print("Invalid")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print(not False)
