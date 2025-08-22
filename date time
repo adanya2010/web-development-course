@@ -1,0 +1,37 @@
+import datetime
+from datetime import date, time,datetime,timedelta
+today= date.today()
+
+print(f"year: {today.Year}")
+print(f"month:{today.month}")
+print(f"day:{today.day}")
+
+#different formats
+print(today.strftime("%d-%Y-%m"))
+print(today.strftime("%m-%d-%Y"))
+
+
+#calendar
+print(calendar.calendar(1879))
+print(calendar.month(3025,8))
+
+
+
+January		
+Su	Mo	Tu	We	Th	Fr	Sa
+ 	 	 	1	2	3	4
+5	6	7	8	9	10	11
+12	13	14	15	16	17	18
+19	20	21	22	23	24	25
+26	27	28	29	30	31
+
+
+
+
+
+Date time = datetime.now()
+Time= datetime.time()
+
+
+
+print(time)
