@@ -1,0 +1,63 @@
+import turtle
+
+screen = turtle.Screen()
+screen.title("my Drawing Board")
+screen.bgcolor("black")
+
+
+# set up pen 
+pen = turtle.Turtle()
+pen.color("yellow")
+
+
+ 
+ 
+
+
+
+
+
+pen.forward(200)
+pen.right(90)
+pen.forward(90)
+pen.right(90)
+pen.forward(200)
+pen.right(90)
+pen.forward(90)
+pen.right(90)
+pen.forward(90)
+
+
+
+
+#pen.speed(8)
+#for i in range(10000):
+#pen.fd(i*0.1) 
+#pen.right(20)
+
+
+
+
+
+pen.speed(0)
+pen.hideturtle()
+
+colors =["red","orange","yellow","pink","indigo"]
+# i in range(100):
+#pen.color(colors[i%7])
+#pen.forward(i*0.5)
+#pen.right(60)
+#i +=1
+
+
+
+#RAINBOW
+
+pen.speed(19)
+pen.hideturtle()
+
+
+
+
+
+turtle.done()
