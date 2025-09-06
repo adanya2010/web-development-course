@@ -1,0 +1,65 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media in Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Adding Different Forms of Media</h1>
+
+  <!-- Image -->
+  <section>
+    <h2>Image</h2>
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
+  </section>
+
+  <!-- Audio -->
+  <section>
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <!-- Video -->
+  <section>
+    <h2>Video</h2>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Iframe (for embedding external content) -->
+  <section>
+    <h2>Embedded Webpage (iframe)</h2>
+    <iframe width="400" height="250" 
+            src="https://www.wikipedia.org" 
+            title="Wikipedia"></iframe>
+  </section>
+
+  <!-- SVG -->
+  <section>
+    <h2>SVG Graphic</h2>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="lightblue" />
+    </svg>
+  </section>
+
+</body>
+</html>
