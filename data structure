@@ -1,0 +1,58 @@
+fruits =["apple","cherry","banana","watermelon","starfruit"]
+number=[11,221,223,32,23,2,1]
+mixed=[True,"hello",100,1000]
+
+
+print(fruit[0])
+print(fruits[1])
+
+print(fruits)
+fruits.append("pineapple")
+fruits.remove("apple")
+fruits.pop(0)
+
+print(len(fruits))
+fruits.reverse()
+print(fruits)
+
+
+
+dict = {
+    "name":"barton"
+    "age":16,
+    "grade":10,
+}
+
+print(dict.get("name"))
+print(dict["name"])
+
+#add
+dict["name"]="adanya"
+print(dict)
+
+#remove
+dict.pop("grade")
+print(dict)
+
+
+tuple=(!,2,3,4,5,6)
+namelist=("rik","nick","aksh")
+
+namelist=list(names)
+namelist[0] ="rahul"
+names= tuple(nameslist)
+
+print(names)
+
+1st= [1,1,1,1,1]
+
+Myset= set(lst)
+print(MySet)
+
+Newset= {1,2,3,4,5,6,7,7,8}
+Set2={11,22,33,44,55}
+
+NewSet.add(10)
+
+print(NewSet  Set2)
+print(NewSet & Set2)
