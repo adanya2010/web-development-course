@@ -1,0 +1,22 @@
+import turtle
+
+# Function to draw a polygon given a tuple of points
+def draw_polygon(points):
+    turtle.penup()
+    turtle.goto(points[0])   # move to first point
+    turtle.pendown()
+    for point in points[1:]:
+        turtle.goto(point)
+    turtle.goto(points[0])   # close the shape
+
+# Triangle vertices (tuples)
+triangle = ((0, 0), (100, 0), (50, 90))
+
+# Rectangle vertices (tuples)
+rectangle = ((150, 0), (250, 0), (250, 80), (150, 80))
+
+# Draw shapes
+draw_polygon(triangle)
+draw_polygon(rectangle)
+
+turtle.done()
