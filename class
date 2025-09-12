@@ -38,3 +38,14 @@ oneplus=mobiles()
 print(samsung.ram)
 print(iphone.camera)
 print(oneplus.battery)
+
+class student :
+    def_init_(self,n,c,r):
+        self.Name=n
+        self.rollno.=r
+        self.class=c
+    student1=("adanya",1)
+    student2=("ananya",45)
+    student3=("jackie",2)
+print(student1.name)
+print(student2.name)
