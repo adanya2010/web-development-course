@@ -1,0 +1,40 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print(bmw.wheel)
+print(audi.wheel)
+print(ferrai.engine)
+
+class Human:
+    eyes=2
+    nose=1
+    mouth=1
+    ears=2
+    hands =2
+    legs=2
+
+class Animal:
+    legs=4
+    tail=1
+    eyes=2
+    ears=2
+    sound="generic"
+    
+dog=Animal()
+cat=Animal()
+cow=Animal()
+
+#mobiles
+class mobiles:
+    brand="iphone"
+    ram=6
+    rom=128
+    battery=5000
+    camera=48
+    
+samsung=mobiles()
+iphone=mobiles()
+oneplus=mobiles()
+
+print(samsung.ram)
+print(iphone.camera)
+print(oneplus.battery)
