@@ -1,0 +1,48 @@
+
+
+
+
+class Laptop:
+    def __init__(self, brand, model, price, processor, ram, storage, graphics):
+        self.brand = brand
+        self.model = model
+        self.price = price
+        self.processor = processor
+        self.ram = ram
+        self.storage = storage
+         self.graphics = graphics
+
+    # Function to display basic details
+    def basic_details(self):
+        return f"Laptop: {self.brand} {self.model}\nPrice: ₹{self.price}"
+
+    # Function to display technical specifications
+    def technical_details(self):
+        return (f"Processor: {self.processor}\n"
+                f"RAM: {self.ram} GB\n"
+                f"Storage: {self.storage} GB\n"
+                f"Graphics: {self.graphics}")
+
+l1 = Laptop("Dell", "Inspiron 15", 55000, "Intel i5 12th Gen", 16, 512, "NVIDIA MX450")
+
+print(l1.basic_details())
+print("\n=== Technical Details ===")
+print(l1.technical_details())
+class Laptop:
+    def __init__(self, brand, model, price, processor, ram, storage, graphics):
+        self.brand = brand
+        self.model = model
+        self.price = price
+        self.processor = processor
+        self.ram = ram
+        self.storage = storage
+        self.graphics = graphics
+
+    # Function to display basic details
+    def basic_details(self):
+        return f"Laptop: {self.brand} {self.model}\nPrice: ₹{self.price}"
+
+  
+print("\n=== Laptop 2 Basic Details ===")
+print(l2.basic_details())
+print("\n=== Laptop 2 Technical Details ===")
