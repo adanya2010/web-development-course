@@ -1,0 +1,39 @@
+# Parent class
+class Animal:
+    def speak(self):
+        print("This is an animal sound")
+
+# Child class (inherits from Animal)
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks: Woof Woof!")
+
+# Using the classes
+d = Dog()
+d.speak()   # Inherited method
+d.bark()    
+
+
+
+
+
+# First parent class
+class Father:
+    def skill1(self):
+        print("Father: Good at driving")
+
+# Second parent class
+class Mother:
+    def skill2(self):
+        print("Mother: Good at cooking")
+
+# Child class inherits from both Father and Mother
+class Child(Father, Mother):
+    def skill3(self):
+        print("Child: Good at coding")
+
+# Using the classes
+c = Child()
+c.skill1()   # From Father
+c.skill2()   # From Mother
+c.skill3()   # Own method
