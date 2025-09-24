@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Decoration & Styling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            text-transform: uppercase; /* Make text uppercase */
+            letter-spacing: 5px;       /* Space between letters */
+            word-spacing: 10px;        /* Space between words */
+            text-shadow: 2px 2px 5px gray; /* Add shadow */
+        }
+
+        h2 {
+            color: darkgreen;
+            text-decoration: underline overline; /* underline + overline */
+            font-style: italic;
+        }
+
+        p {
+            color: #333333;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .link-style {
+            color: red;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .link-style:hover {
+            text-decoration: underline;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
