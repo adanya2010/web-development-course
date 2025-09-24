@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo-Class Demo</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        button:active {
+            background-color: green;
+            color: white;
+        }
+
+        input:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+
+        ul li:first-child {
+            font-weight: bold;
+        }
+
+        ul li:last-child {
+            color: purple;
+        }
+
+        ul li:nth-child(2) {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo-Class Examples</h2>
+
+    <p>Hover over this link: <a href="#">Click Me</a></p>
+
+    <p>
+        <button>Click Me</button>
+    </p>
+
+    <p>Focus on this input:</p>
+    <input type="text" placeholder="Type here">
+
+    <h3>List Example</h3>
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Last Item</li>
+    </ul>
+</body>
+</html>
