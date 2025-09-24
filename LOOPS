@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Numbers with Loop</title>
+</head>
+<body>
+    <h2>Random Numbers Generator</h2>
+    <button onclick="generateRandomNumbers()">Generate Numbers</button>
+    <ul id="randomNumbersList"></ul>
+
+    <script>
+        function generateRandomNumbers() {
+            const list = document.getElementById("randomNumbersList");
+            list.innerHTML = ""; // Clear previous numbers
+
+            // Loop to generate 10 random numbers
+            for (let i = 1; i <= 10; i++) {
+                let randomNumber = Math.floor(Math.random() * 100) + 1; // 1 to 100
+                let listItem = document.createElement("li");
+                listItem.textContent = "Random Number " + i + ": " + randomNumber;
+                list.appendChild(listItem);
+            }
+        }
+    </script>
+</body>
+</html>
