@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, total_classes, attended_classes):
+        self.name = name
+        self.total_classes = total_classes
+        self.attended_classes = attended_classes
+
+    def check_eligibility(self):
+        attendance_percentage = (self.attended_classes / self.total_classes) * 100
+        print(f"Student: {self.name}")
+        print(f"Attendance: {attendance_percentage:.2f}%")
+
+        if attendance_percentage >= 75:
+            print(" Eligible for Exam\n")
+        else:
+            print(" Not Eligible for Exam\n")
