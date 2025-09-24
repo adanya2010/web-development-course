@@ -1,0 +1,29 @@
+class ExpenseTracker:
+    def __init__(self):
+        self.transactions = []  # stores income & expenses
+
+    def add_income(self, amount, source):
+        self.transactions.append(("Income", amount, source))
+        print(f"Income of ₹{amount} added from {source}")
+
+    def add_expense(self, amount, reason):
+        self.transactions.append(("Expense", amount, reason))
+        print(f" Expense of ₹{amount} added for {reason}")
+
+    def show_summary(self):
+        income = sum(t[1] for t in self.transactions if t[0] == "Income")
+        expense = sum(t[1] for t in self.transactions if t[0] == "Expense")
+        balance = income - expense
+
+        print("\n===== SUMMARY =====")
+        print(f"Total Income  : ₹{income}")
+        print(f"Total Expense : ₹{expense}")
+        print(f"Balance       : ₹{balance}")
+
+    def show_transactions(self):
+        print("\n===== TRANSACTIONS =====")
+        if not self.transactions:
+            print("No transactions yet.")
+        else:
+            for t in self.transactions:
+                print(f"{t[0]} | ₹{t[1]}
