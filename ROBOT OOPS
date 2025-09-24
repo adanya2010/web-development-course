@@ -1,0 +1,13 @@
+
+
+class Robot:
+    def __init__(self, name, model, purpose):
+        self.name = name
+        self.model = model
+        self.purpose = purpose
+
+    def introduce(self):
+        print(f" Hello! I am {self.name}.")
+        print(f" Model: {self.model}")
+        print(f" My purpose is: {self.purpose}")
+        print("Nice to meet you!")
