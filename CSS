@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Properties Demo</title>
+    <style>
+        /* Text Properties */
+        h1 {
+            color: darkblue;
+            font-size: 36px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            color: green;
+            font-size: 18px;
+            font-family: "Times New Roman", serif;
+            text-align: justify;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* Background Properties */
+        body {
+            background-color: #f0f8ff;
+            background-image: url('https://via.placeholder.com/150');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Box Model */
+        .box {
+            width: 300px;
+            height: 150px;
+            padding: 20px;
+            margin: 30px auto;
+            border: 3px solid black;
+            background-color: #ffe4b5;
+        }
+
+        /* Display & Position */
+        .inline-box {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            background-color: #ff7f50;
+            position: relative;
+            top: 10px;
+        }
+
+        /* Other Properties */
+        .transparent-box {
+            width: 200px;
+            height: 100px;
+            background-color: purple;
+            opacity: 0.6;
+            cursor: pointer;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Properties Demo</h1>
+
+    <p>This paragraph demonstrates <strong>text properties</strong> like color, font-size, font-family, text-align, and text-decoration. <a href="#">This is a link</a>.</p>
+
+    <div class="box">This is a box showing padding, margin, border, width, and height.</div>
+
+    <div class="inline-box">Box 1</div>
+    <div class="inline-box">Box 2</div>
+    <div class="inline-box">Box 3</div>
+
+    <div class="transparent-box">Hover Me!</div>
+</body>
+</html>
