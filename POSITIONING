@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Positioning Demo</title>
+    <style>
+        body {
+            height: 400px;
+            position: relative;
+        }
+
+        /* Static (default) */
+        .static-box {
+            background-color: lightblue;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Relative */
+        .relative-box {
+            background-color: lightgreen;
+            padding: 20px;
+            position: relative;
+            top: 20px;  /* Moves down 20px from normal position */
+            left: 30px; /* Moves right 30px */
+        }
+
+        /* Absolute */
+        .absolute-box {
+            background-color: lightcoral;
+            padding: 20px;
+            position: absolute;
+            top: 150px; /* From nearest positioned parent (body here) */
+            left: 50px;
+        }
+
+        /* Fixed */
+        .fixed-box {
+            background-color: orange;
+            padding: 20px;
+            position: fixed;
+            bottom: 10px; /* Stays at bottom of screen */
+            right: 10px;
+        }
+
+        /* Sticky */
+        .sticky-box {
+            background-color: pink;
+            padding: 20px;
+            position: sticky;
+            top: 0;  /* Sticks to top when scrolling */
+        }
+    </style>
+</head>
+<body>
+    <div class="static-box">Static Position (Default)</div>
+    <div class="relative-box">Relative Position</div>
+    <div class="absolute-box">Absolute Position</div>
+    <div class="sticky-box">Sticky Position</div>
+    <div class="fixed-box">Fixed Position</div>
+
+    <p style="margin-top:500px;">Scroll down to see Sticky & Fixed in action.</p>
+</body>
+</html>
