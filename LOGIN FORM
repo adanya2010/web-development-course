@@ -1,0 +1,44 @@
+# Enhanced Login Form with Age Validation and Multiple Attempts
+
+# Predefined credentials (name: age)
+credentials = {
+    "Alice": 20,
+    "Bob": 25,
+    "Charlie": 30,
+    "David": 18
+}
+
+print("=== Welcome to the Login Portal ===\n")
+print("Note: You must be 18 years or older to login.\n")
+
+attempts = 3  # Maximum login attempts
+
+while attempts > 0:
+    name = input("Enter your name: ").strip()
+    age_input = input("Enter your age: ").strip()
+
+    # Validate age input
+    if not age_input.isdigit():
+        print("Error: Age must be a number. Try again.\n")
+        continue
+
+    age = int(age_input)
+
+    # Check age restriction
+    if age < 18:
+        print("Access Denied! You must be 18 or older.\n")
+        attempts -= 1
+        print(f"Attempts remaining: {attempts}\n")
+        continue
+
+    # Check credentials
+    if name in credentials and credentials[name] == age:
+        print(f"\nLogin Successful! Welcome {name}.\n")
+        break
+    else:
+        print("Login Failed! Invalid name or age.\n")
+        attempts -= 1
+        print(f"Attempts remaining: {attempts}\n")
+
+if attempts == 0:
+    print("You have used all attempts. Please try again later.")
