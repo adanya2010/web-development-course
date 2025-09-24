@@ -1,0 +1,12 @@
+def timetable():
+    print("===== DAILY ROUTINE TIMETABLE =====")
+    print("7:00 AM - 2:00 PM  : School 🏫 (7 hrs)")
+    print("3:00 PM - 5:00 PM  : Allen Classes 📘")
+    print("5:30 PM - 7:30 PM  : Study 📚")
+    print("7:30 PM - 8:30 PM  : PS5 Games 🎮")
+    print("8:30 PM - 9:00 PM  : Dinner 🍽️")
+    print("9:00 PM - 11:00 PM : Study 📖")
+    print("11:00 PM           : Sleep 😴")
+
+# Run timetable
+timetable()
