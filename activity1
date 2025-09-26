@@ -1,0 +1,5 @@
+myfriends = open("Freinds.txt")
+
+friends_name = myfriends.read()
+
+print(friends_name)
