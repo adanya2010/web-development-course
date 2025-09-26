@@ -1,4 +1,4 @@
-#myfriends = open("Freinds.txt")
+ #myfriends = open("Freinds.txt")
 #friends_name = myfriends.read()
 #print(friends_name)
 
@@ -8,3 +8,19 @@ basket.write("banana/n")
 
 basket =open("Fruits.txt")
 print(basket.read())
+
+
+file1=write("print("hello from file 1!')")
+code1="""print("hello fron file1")"""
+file.write(code1)
+with open ("file1.py","w")as file1:
+     file1.write(code1)
+
+code2 ="""print(hello from file2")"""
+with open("file2.py">"W")as file2:
+     file2.write(code2)
+
+print(""hello from MyFile")
+      
+subprocess.run(["py"],"file1.py")
+subprocess.run({"py","file2.py"])})
