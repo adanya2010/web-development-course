@@ -1,5 +1,10 @@
-myfriends = open("Freinds.txt")
+#myfriends = open("Freinds.txt")
+#friends_name = myfriends.read()
+#print(friends_name)
 
-friends_name = myfriends.read()
+basket =open ("Fruits.txt."w")             
+basket.write("apple/n")
+basket.write("banana/n")
 
-print(friends_name)
+basket =open("Fruits.txt")
+print(basket.read())
