@@ -1,0 +1,27 @@
+from tkinter import *
+
+screen = Tk()
+
+screen.title("my first app)
+screen.geometry("400x300)
+screen.config(bg="lightblue")
+
+#components 
+
+#label
+welcome=label(screen,text="welcome to my app",font=("serif,15,"bold)),fg="green"
+padx=5,pady=3)
+welcome.pack()
+
+name = Label (screen,text="hello fro adanya!",font=("times",15,"bold),bg="lightblue,padx=3.pady=5)
+name.pack()
+
+
+def adName
+adButton = Button(screen,text="adanya",padx=5,pady=2)
+adButton.pack(padx=5,pady=2)
+
+btButton=Button(screen,text="Barton",padx=5,pady=2,command=adName)
+
+
+screen.mainloop()
