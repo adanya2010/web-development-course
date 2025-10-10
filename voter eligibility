@@ -1,0 +1,65 @@
+from tkinter import
+
+screen=Tk()
+screen.title("voter eligibilty checker")
+screen.geometry("400x300)
+screen.config(bg="#ff88ff"
+
+#title
+title= Label(screen,text="CHECK YOUR VOTER ELIGIBILTY!",font=
+("Comic sans MS",16,"bold"),bg="f0f8FF")
+title.pack(pady=10)
+
+#Label
+name_label=Label(screen,text="ENTER YOUR NAME",font=("airel,12)
+,bg="#f0f8ff")
+name_label.pack()
+
+#input age
+namename_input=Entry(screen,width=25,font=("Poppins,12,"bold),bg="white,fg="blue,justify="center")
+name_input.pack(padx=2,pady=2)
+
+def Check_Eligibility():
+    name=name_input.get().strip()
+    age=age_input.get().strip()
+
+    if not name or not age:
+       messagebox.showwarning("Inputage","pkease enetr valid age!")
+       return
+
+    try:
+        age=int(age)
+    except ValueErroe:
+    messagebox.showwaring("Input Age","Please enter valid age!")
+    return
+
+
+    if age>=18:
+        result.config(text=f"hey!{name} you are leigible to vote !" ,gg="green")
+    else:
+    result.config(text=f"sorry!{name}you are not eleigible ,fg="red)
+
+
+    #check button 
+    check = = Button(screen,text+"check eligibility",bg="#047008",gf="white".font=("airiel,10,"bold"),relief="raised",command=check_eleigibilty)
+    check.pack(pady=10)
+
+    #result
+
+
+
+
+
+#check Button
+check=button(screen,text="check eligibility",bg "#4CAF50",fg="white,font=("airel,10,"bold",relief="solid"))
+check.pack(pady=10)
+
+#result
+result=Label(screen,text="",bg="#f0f8ff",font=("comic sans Ms",14,"bold")))
+result.pack(pady=20)
+
+
+
+
+
+sreen.mainloop()
