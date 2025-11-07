@@ -1,0 +1,36 @@
+number=int("enter any number)
+power=len(number)
+sum = 0
+
+for i in number
+sum = sum+int(digit)**power
+
+if int(number)==sum:
+    print("armstrong number")
+
+else:
+    print("not an armstrong number")
+
+
+numbers = int(input("enter your number"))
+reverse = 0
+
+while number>0:
+    digit = number%10
+    reverse = reverse*10+digit
+    number= number//10
+
+
+
+#program to find gcd
+
+numberLargest= int(input("enter largest number :  "))
+numberSmallest=int(input("enter smallest number :  "))
+
+# using ucd
+while(numberSmallest):
+    numberStore = numberSmallest
+    numberSmallest = numberLargest% numberSmallest
+    numberLargest =numberStore
+
+print("HCF is: ",numberLargest)
