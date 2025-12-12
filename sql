@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS students(
+    NAME TEXT ,
+    AGE INTEGER,
+    GRADE INTEGER,
+)
+
+INSERT INTO students VALUE
+("ADANYA",17,8),
+("BARTON",18,19)
+("saanvi"11,8)
+
+SELECT * FROM students;
+
